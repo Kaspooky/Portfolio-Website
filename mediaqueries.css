@@ -99,4 +99,33 @@ footer nav {
 .text-container {
     text-align: justify;
 }
+#projects, #project-2{
+    margin: auto 3rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+
+#projects .section__text {
+    display:table-row-group;
+    width: 100%;
+}
+#projects .section__pic-container {
+    display: flex;
+    margin-bottom: 3rem;
+    margin-left: 10rem;
+    width: 100%;
+}
+
+
+#project-2 .section__text {
+    display:table-row-group;
+    width: 100%;
+}
+#project-2 .section__pic-container {
+    margin-bottom: 10rem;
+    margin-left: 10rem;
+    width: 100%;
+}
+
 }

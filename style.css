@@ -321,6 +321,8 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
     gap: .5rem;
     margin: 1rem;
 }
