@@ -57,7 +57,7 @@ a:hover {
     color:#FCE8D1;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181,181,181);
+    text-decoration-color: #FCE8D1;
 }
 
 .logo {
@@ -187,6 +187,10 @@ section {
     position: relative;
 }
 
+#about .txt-container {
+    margin: 0 3rem;
+}
+
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
@@ -230,3 +234,138 @@ section {
     width: 400px;
     margin: auto 0;
 }
+
+#experience {
+    position: relative;
+}
+
+.experience-sub-title {
+    color: #dd8660;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+.article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: .5rem;
+}
+
+#projects {
+    position: relative;
+}
+
+
+#projects .section__pic-container {
+    display: flex;
+    height: 300px;
+    max-width: 40%;
+    margin: auto 0;
+    filter: drop-shadow(grey 1rem 1rem 10px);
+}
+
+#projects .section__text {
+    margin: 0 10rem;
+}
+
+#project-2 {
+    position: relative;
+}
+
+#project-2 .section__text {
+    margin: 0 10rem;
+}
+
+#project-2 .section__pic-container {
+    display: flex;
+    height: 300px;
+    max-width: 40%;
+    margin: auto 0;
+    filter: drop-shadow(grey 1rem 1rem 10px);
+}
+
+#contact {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-container-upper {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: #E3A184 .1rem solid;
+    border-color: #dd8660;
+    margin: 2rem auto;
+    padding: .5rem;
+}
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+#contact a {
+    background-color: #FCE8D1;
+}
+#contact a:hover {
+    color: #dd8660;
+}
+
+.contact-icon {
+    cursor: default;
+    height: 2rem;
+}
+
+.email-icon {
+    cursor: default;
+    height: 2.5rem;
+}
+
+footer {
+    margin: 0 1rem;
+}
+
+footer nav{
+    display: flex;
+    background-color: #FCE8D1;
+}
+
+footer a {
+    background-color: #FCE8D1;
+}
+footer .nav-links {
+    background-color: #FCE8D1;
+}
+
+footer a:hover {
+    color: #dd8660;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: #dd8660;
+    
+}
+
