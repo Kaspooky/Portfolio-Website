@@ -220,7 +220,7 @@ section {
     padding: 1.5rem;
     flex: 1;
     border-radius: 2rem;
-    border: #E3A184 .1rem solid;
+    border: #E3A184 .2rem solid;
     border-color: #dd8660;
 }
 
@@ -312,7 +312,7 @@ section {
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: #E3A184 .1rem solid;
+    border: #E3A184 .2rem solid;
     border-color: #dd8660;
     margin: 2rem auto;
     padding: .5rem;
